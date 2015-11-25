@@ -1,1 +1,0 @@
-/Users/wesleyhoffman/.dotfiles/zsh/zshrc.symlink
