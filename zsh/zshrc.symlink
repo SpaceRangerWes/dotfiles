@@ -12,11 +12,14 @@ then
   source ~/.localrc
 fi
 
+# Load zprezto if it's installed
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
 # all of our zsh files
-typeset config_files
-config_files=($ZSH/**/*.zsh)
-echo ${config_files[*]}
-echo ${(M)config_files:#$ZSH/**/path.zsh}
+local -a config_files
+config_files=($ZSH/*/*.zsh)
 
 # load the path files
 for file in ${(M)config_files:#*/path.zsh}
