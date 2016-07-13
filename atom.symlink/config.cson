@@ -1,9 +1,28 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "3ccc6b99-5799-4cd4-af91-83f819842b46"
+    python:
+      beautify_on_save: true
+      default_beautifier: "yapf"
   core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
     disabledPackages: [
       "background-tips"
       "exception-reporting"
       "metrics"
+      "nuclide"
     ]
     hideGitIgnoredFiles: true
     ignoredNames: [
@@ -14,6 +33,7 @@
       "tmp"
       "vendor"
     ]
+    projectHome: "/Users/wesleyhoffman/Projects"
     themes: [
       "unity-ui"
       "glacier-syntax"
@@ -22,8 +42,18 @@
     fontFamily: "Menlo"
     fontSize: 15
     invisibles: {}
+    preferredLineLength: 79
     showIndentGuide: true
+    softWrap: true
     softWrapAtPreferredLineLength: true
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  nuclide:
+    "nuclide-home":
+      showHome: false
+  "python-yapf":
+    yapfPath: "/usr/local/bin/yapf"
+    yapfStyle: "{based_on_style: google, column_limit: 79}"
   "release-notes":
     viewedVersion: "0.89.0"
   "spell-check":
