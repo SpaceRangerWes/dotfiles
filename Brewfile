@@ -1,0 +1,27 @@
+cask_args appdir: '/Applications'
+
+tap 'homebrew/bundle'
+
+brew 'coreutils'
+brew 'go'
+brew 'grc'
+brew 'libcaca', args: ['with-imlib2']
+brew 'libgit2'
+brew 'openssl'
+brew 'node'
+brew 'readline'
+brew 'postgresql'
+brew 'ruby-build'
+brew 'rbenv'
+brew 'roundup'
+brew 'spark'
+brew 'unrar'
+brew 'wget'
+
+cask '1password'
+cask 'atom'
+cask 'firefox'
+cask 'google-chrome'
+cask 'slack'
+cask 'tunnelbear'
+cask 'vlc'

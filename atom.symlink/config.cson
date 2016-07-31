@@ -22,8 +22,8 @@
       "background-tips"
       "exception-reporting"
       "metrics"
-      "nuclide"
     ]
+    followSymlinks: false
     hideGitIgnoredFiles: true
     ignoredNames: [
       ".bundle"
@@ -48,9 +48,6 @@
     softWrapAtPreferredLineLength: true
   "file-watcher":
     promptWhenFileHasChangedOnDisk: false
-  nuclide:
-    "nuclide-home":
-      showHome: false
   "python-yapf":
     yapfPath: "/usr/local/bin/yapf"
     yapfStyle: "{based_on_style: google, column_limit: 79}"
@@ -61,7 +58,7 @@
       "text.plain"
       "source.gfm"
       "text.git-commit"
+      "text.html.basic"
     ]
   welcome:
     showOnStartup: false
-  whitespace: {}
