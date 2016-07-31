@@ -40,7 +40,3 @@ function {
 
 export NVM_DIR="/Users/wesleyhoffman/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
-
-
-. /Users/wesleyhoffman/torch/install/bin/torch-activate
