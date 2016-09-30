@@ -1,1 +1,1 @@
-export EDITOR='/User/wesleyhoffman/Applications/atom'
+export EDITOR='~/Applications/atom'

@@ -2,9 +2,14 @@
   "atom-beautify":
     general:
       _analyticsUserId: "3ccc6b99-5799-4cd4-af91-83f819842b46"
+    json:
+      beautify_on_save: true
     python:
       beautify_on_save: true
       default_beautifier: "yapf"
+  "atom-terminal":
+    app: "/Applications/iTerm.app"
+    surpressDirectoryArgument: false
   core:
     customFileTypes:
       "source.ini": [
@@ -33,17 +38,18 @@
       "tmp"
       "vendor"
     ]
-    projectHome: "/Users/wesleyhoffman/Projects"
+    projectHome: "~/Repositories"
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "atom-material-ui"
+      "atom-material-syntax"
     ]
   editor:
     fontFamily: "Menlo"
-    fontSize: 15
+    fontSize: 12
     invisibles: {}
     preferredLineLength: 79
     showIndentGuide: true
+    showInvisibles: true
     softWrap: true
     softWrapAtPreferredLineLength: true
   "file-watcher":

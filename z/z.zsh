@@ -1,1 +1,1 @@
-. ~/Applications/z/z.sh
+. ~/bin/z/z.sh

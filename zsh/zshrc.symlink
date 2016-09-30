@@ -3,6 +3,7 @@
 function {
   export DOTFILES="${HOME}/.dotfiles"
   export PROJECTS="${HOME}/Projects"
+  export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
 
   #
   # Zprezto
@@ -38,5 +39,5 @@ function {
   done
 }
 
-export NVM_DIR="/Users/wesleyhoffman/.nvm"
+export NVM_DIR="~/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
