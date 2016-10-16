@@ -1,1 +1,1 @@
-export EDITOR='~/Applications/atom'
+export EDITOR=$(which vim)
